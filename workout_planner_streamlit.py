@@ -388,7 +388,7 @@ def plan_to_png(text: str, title: str = "Workout Plan") -> bytes:
 # 🧭 Sidebar Controls
 # -----------------------
 with st.sidebar:
-    st.markdown("## 💪 Smart Workout Planner")
+    st.markdown("## 💪 ForgeFitness")
     st.caption("Plan your week with difficulty, duration, target muscles & safety filters.")
     st.markdown("<div class='hr'></div>", unsafe_allow_html=True)
     week_start = st.date_input("Week starting", value=datetime.today())
@@ -419,7 +419,7 @@ with st.sidebar:
 # -----------------------
 # 📅 Per-day target selection
 # -----------------------
-st.title("🏋️‍♀️ Smart Workout Planner")
+st.title("🏋️‍♀️ ForgeFitness")
 st.caption("Plan a balanced week. Click a day to view full session details, export as image, or copy text.")
 
 with st.expander("Optional: customize targets per day"):
