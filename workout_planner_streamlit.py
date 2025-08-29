@@ -11,8 +11,10 @@ import textwrap
 # -----------------------
 # 🎨 Global Page Settings
 # -----------------------
-st.set_page_config(page_title="Smart Workout Planner", page_icon="💪", layout="wide")
-
+st.set_page_config(
+    page_title="ForgeFitness",
+    page_icon="💪"
+)
 # -----------------------
 # 🌈 Aesthetic CSS
 # -----------------------
